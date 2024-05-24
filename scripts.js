@@ -51,6 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Theme switcher
     themeSwitcher.addEventListener('click', () => {
+        
         document.documentElement.classList.toggle('dark');
         const theme = document.documentElement.classList.contains('dark') ? 'Dark Mode' : 'Light Mode';
         themeSwitcher.textContent = theme;

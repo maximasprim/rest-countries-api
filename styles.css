@@ -1,6 +1,4 @@
-/* styles.css */
 
-/* CSS Reset */
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +11,20 @@ body {
     color: var(--text-color);
     transition: background-color 0.3s, color 0.3s;
 }
+/* Light Theme */
+:root {
+    --background-color: #fafafa;
+    --text-color: #333;
+    --element-background-color: #fff;
+}
+
+/* Dark Theme */
+.dark {
+    --background-color: #333;
+    --text-color: #fff;
+    --element-background-color: #444;
+}
+
 
 header {
     display: flex;
