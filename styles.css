@@ -25,7 +25,28 @@ body {
     --element-background-color: #444;
 }
 
+#theme-switcher{
+    height: 30px;
+    border-radius: 20px;
+    width: 80px;
+}
 
+#search{
+    height: 50px;
+    border-radius: 10px;
+}
+#region-filter{
+    border-radius: 10px;
+}
+
+#search {
+    font-size: 20px;
+}
+
+
+#region-filter {
+    font-size: 20px; 
+}
 header {
     display: flex;
     justify-content: space-between;
